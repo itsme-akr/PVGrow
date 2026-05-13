@@ -1,0 +1,25 @@
+/*
+  App.css - Global Styles
+  This file is for high-level styles that affect the entire application.
+*/
+
+/* Use a smoother font anti-aliasing for better text rendering */
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+}
+
+/*
+  A simple box-sizing reset to make layout calculations more intuitive.
+  This tells the browser to include padding and border in the element's total width and height.
+*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Add any other global styles here if needed in the future */
